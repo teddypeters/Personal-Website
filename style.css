@@ -421,11 +421,13 @@ padding-top: 300px;
 
   .containerTitle{
     width: 150px;
+    padding-bottom: 30px;
    
   }
   
   #two.containerTitle{
     width: 160px;
+    padding-bottom: 30px;
   }
 
   .Paragraph{
