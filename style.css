@@ -1,466 +1,396 @@
+/* 
+Author: Theodore Peters
+Date: 4/17/21
+Styling for teddypeters.github.io
+----------------------------------------------
+*/
+
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
-    font-family:sans-serif;
-    
-    
+    font-family: sans-serif;
 }
-body{
+
+body {
     background-color: #212121;
-    
 }
 
-h1{
-  font-size: 100px;   
-  color: rgb(200, 207, 214);
+h1 {
+    font-size: 100px;
+    color: rgb(200, 207, 214);
 }
 
-h2{
-  font-size: 60px;    
-  color: rgb(200, 207, 214);
-  padding-bottom: 15px;
+h2 {
+    font-size: 60px;
+    color: rgb(200, 207, 214);
+}
+
+h4 {
+    font-size: 22px;
+    color: rgb(92, 203, 255);
+}
+
+h5 {
+    font-size: 22px;
+    color: rgb(92, 203, 255);
+}
+
+h6 {
+    font-size: 19px;
+    color: rgb(200, 207, 214);
+    font-weight: 100;
+}
+
+header {
+    top: o;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10;
+    opacity: 95%;
+}
+
+#sideBar {
+    position: fixed;
+    width: 3%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(27, 27, 27);
 }
 
 
-h4{
-  font-size: 22px;
-  color: rgb(92, 203, 255);
-}
-h5{
-  font-size: 22px;
-  color: rgb(92, 203, 255);
-}
+/* Navigation styling */
 
-h6{
-  font-size: 19px;
-  color: rgb(200, 207, 214);
-  font-weight: 100;
-}
-header{
-  top: o;
-  position: fixed;
-  width: 100%;
-  overflow: hidden;
-  z-index: 10;
-  opacity: 95%;
-}
-#sideBar{
-  position: fixed;
-  width: 3%;
-  height: 100%;
-  z-index: 0;
-
-  background-color: rgb(27, 27, 27);
-}
-
-
-#navUnordered{
+#navUnordered {
     list-style-type: none;
     margin: 0;
     padding-right: 5%;
     overflow: hidden;
     background-color: rgb(37, 37, 37);
-    z-index:1;
-   
-  }
-  .navBar {
+    z-index: 1;
+}
+
+.navBar {
     display: inline;
     float: right;
     padding-left: 3%;
     background-color: rgb(37, 37, 37);
-   
-  }
+}
 
-  .navLink{
+.navLink {
     background-color: rgb(68, 161, 248, 0%);
     border-radius: 25px;
     transition: 1s;
-  }
+}
 
-  .navLink:hover{
+.navLink:hover {
     background-color: rgb(68, 161, 248, 30%);
-  }
-  li a {
+}
+
+li a {
     display: block;
     color: rgb(92, 203, 255);
-    
     padding: 14px 12px;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
-  
-  }
+}
 
-  
-  #introContainer{
+#introContainer {
     position: relative;
     top: 0%;
     text-align: center;
-    height:700px;
+    height: 700px;
     overflow: hidden;
-   
     border-bottom: 5px solid rgb(92, 203, 255);
+}
 
-  }
-.container{
-  
+
+/* Container class is used for each new section, utilizing ID's to provide slight variation when applicable */
+
+.container {
     position: relative;
     top: 0%;
     text-align: center;
     overflow: hidden;
     height: auto;
-    
     border-bottom: 5px solid rgb(92, 203, 255);
-  
-  }
+}
 
-
-
-
-
-
-
-.welcomeBackground{
-  z-index: -10;
-  position: absolute;
-  left: 0;
+.welcomeBackground {
+    z-index: -10;
+    position: absolute;
+    left: 0;
     top: 0%;
-    width:1700px;
+    width: 1700px;
     overflow: hidden;
     opacity: 0.05;
 }
 
-  .selfPortrait {
+.selfPortrait {
     width: 30%;
-    
     position: absolute;
     top: 20%;
     right: 11%;
-  }
- 
-#intro{
-  height: auto;
-  width: 45%;
-position: relative;
-left: 10%;
-top: 0vw;
-text-align: left;
-border-bottom: 0.4vw solid rgb(92, 203, 255);
-
-padding-bottom: 0.5vw;
-padding-top: 250px;
-
 }
-#hireMe{
-  top: 5vw;
-  left: 0%;
-  position: relative;
-  background-color: transparent;
-  border-radius: 60px;
-  color: white;
 
-  border: 0.5vw solid rgb(92, 203, 255);
-  padding: 10px 20px;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  font-style: bold;
-  text-decoration: none;
-  transition-duration: 0.4s;
- 
+#intro {
+    height: auto;
+    width: 45%;
+    position: relative;
+    left: 10%;
+    top: 0vw;
+    text-align: left;
+    border-bottom: 0.4vw solid rgb(92, 203, 255);
+    padding-bottom: 0.5vw;
+    padding-top: 250px;
+}
+
+
+/* Styling for the learn more button */
+
+#learnMore {
+    top: 5vw;
+    left: 0%;
+    position: relative;
+    background-color: transparent;
+    border-radius: 60px;
+    color: white;
+    border: 0.5vw solid rgb(92, 203, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-style: bold;
+    text-decoration: none;
+    transition-duration: 0.4s;
 }
 
 #hireMe:hover {
-  border: 0.5vw solid rgb(92, 203, 255);
-  background-color: rgba(217, 243, 255, 0.2);
-  
-  
-  
-}
-
-.Paragraph{
-  position: relative;
-  height: auto;
-  text-align: left;
-  width: 35%;
-  left: 10%;
-  top: 0vw;
-  padding-top: 1vw;
-padding-bottom: 20vw;
+    border: 0.5vw solid rgb(92, 203, 255);
+    background-color: rgba(217, 243, 255, 0.2);
 }
 
 
+/* Paragraph class is used to style the writing in each container */
 
-
-
-
-
-
-
-
-
-
-#uwCrest{
-  position: absolute;
- left: 40vw;
- top: 15%;
-width: 30%;
-opacity: 3%;  
-}
-
-.containerTitle{
-  height: 5vw;
-  width: 300px;
-position: relative;
-left: 10%;
-top: 50%;
-text-align: right;
-
-margin-top: 10vw;
-margin-bottom: 3vw;
-padding-right: 15px;
-padding-bottom: 15px;
-padding-top: 20px;
-border-right: 0.6vw solid rgb(92, 203, 255);
-border-bottom: 0.6vw solid rgb(47, 102, 252);;
-
-}
-#education.Paragraph{
-  width: 80%;
-  margin-bottom: 3vw;
-  
-  margin-top: 3vw;
-  padding-top: 1.5vw;
-padding-bottom: 3vw;
-
-}
-
-
-table{
-  position:relative;
-  top: 10%;
-  left: 10%;
-  color: whitesmoke;
-  
- 
-  margin-bottom: 5vw;
-  width: 80%;
-
-}
-th{
-  text-align: left;
-  color: rgb(92, 203, 255);
-  font-size: 20px;
-}
-td{
-
-  float: left;
-  text-align: left;
-  width: auto;
-  padding: 2vw;
-  white-space: nowrap;
-  font-size: 16px;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#two.containerTitle{
-  width: 320px;
-}
-
-.experienceItem{
-  top: auto;
-  position: relative;
-  width: 24%;
-  height: auto;
-  margin: 1.25%;
- 
-  margin-top: 90px;
-  float: left;
-  text-align: left;
-  padding-left: 5%;
-  margin-bottom: 8vw;
-}
-
-#getInTouch{
-  margin: 15%;
-}
-
-
-.fa {
-  position: relative;
-  top: 0;
-  padding: 10px;
-  font-size: 50px;
-  width: 100px;
-  height: auto;
-  margin-top: 2vw;
-  text-align: center;
-  text-decoration: none;
-  background: transparent;
-  color: rgb(92, 203, 255);
-}
-
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-
-
-footer{
-  bottom: 0;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  
-  background-color: rgb(37, 37, 37);
-  height: 8vw;
-  text-align: center;
-
-}
-#contactInfo{
-  margin-top: 4vw;
-}
-
-#last.container{
-  border: 0.8vw solid rgb(68, 161, 248);
-}
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1100px) {
-  .experienceItem{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    text-align: left;
-    padding-left: 3%;  
-    margin-bottom: 8vw; 
-  }
-
-
-h4{
-  font-size: 19px;
-}
-h6{
-  font-size: 15px;
-
-}
-
-.welcomeBackground{
-
-    width:1400px;
-   
-}
-
-h1{
-  font-size: 70px;   
-}
-h2{
-  font-size: 42px;    
-
-}
-
-#intro{
-  width: 60%;
-
-padding-bottom: 0.5vw;
-padding-top: 300px;
-
-
-}
-
-.containerTitle{
-  width: 200px;
-}
-
-#two.containerTitle{
-  width: 220px;
-}
-
-}
-
-@media only screen and (max-width: 700px){
-  h1{
-    font-size: 50px;   
-  }
-
-  h2{
-    font-size: 30px;    
-  }
-  .welcomeBackground{
-   
-      
-      width:1250px;
-      
-  }
-
-  .containerTitle{
-    width: 150px;
-    padding-bottom: 30px;
-   
-  }
-  
-  #two.containerTitle{
-    width: 160px;
-    padding-bottom: 30px;
-  }
-
-  .Paragraph{
-    
+.Paragraph {
+    position: relative;
     height: auto;
-
-    width: 60%;
-   
+    text-align: left;
+    width: 35%;
+    left: 10%;
     top: 0vw;
     padding-top: 1vw;
-  padding-bottom: 10vw;
-    
-  }
-  
- 
+    padding-bottom: 20vw;
+}
 
-  .selfPortrait {
-    width: 50%;
-    
+#uwCrest {
+    position: absolute;
+    left: 40vw;
+    top: 15%;
+    width: 30%;
+    opacity: 3%;
+}
+
+
+/* ContainerTitle class is used in each section to style the header */
+
+.containerTitle {
+    height: 5vw;
+    width: 300px;
+    position: relative;
+    left: 10%;
+    top: 50%;
+    text-align: right;
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-right: 0.6vw solid rgb(92, 203, 255);
+    border-bottom: 0.6vw solid rgb(47, 102, 252);
+    ;
+}
+
+#education.Paragraph {
+    width: 80%;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 3vw;
+}
+
+
+/* Table is used to display relevant coursework */
+
+table {
     position: relative;
     top: 10%;
-    
-    margin-bottom: 30px;
-  }
-  td{
-    
-    font-size: 14px;
-    padding: 3vw;
-  }
+    left: 10%;
+    color: whitesmoke;
+    margin-bottom: 5vw;
+    width: 80%;
+}
 
-  th{
-    font-size: 18px;
-  }
-  
+th {
+    text-align: left;
+    color: rgb(92, 203, 255);
+    font-size: 20px;
+}
+
+td {
+    float: left;
+    text-align: left;
+    width: auto;
+    padding: 2vw;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+#two.containerTitle {
+    width: 320px;
+}
+
+.experienceItem {
+    top: auto;
+    position: relative;
+    width: 24%;
+    height: auto;
+    margin: 1.25%;
+    margin-top: 90px;
+    float: left;
+    text-align: left;
+    padding-left: 5%;
+    margin-bottom: 8vw;
+}
+
+#getInTouch {
+    margin: 15%;
+}
+
+
+/* Styling for the social media icons */
+
+.fa {
+    position: relative;
+    top: 0;
+    padding: 10px;
+    font-size: 50px;
+    width: 100px;
+    height: auto;
+    margin-top: 2vw;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    color: rgb(92, 203, 255);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+    height: 8vw;
+    text-align: center;
+}
+
+#contactInfo {
+    margin-top: 4vw;
+}
+
+#last.container {
+    border: 0.8vw solid rgb(68, 161, 248);
+}
+
+
+/* Changes are made to certain selectors when the view window is below 1100 px in width */
+
+@media screen and (max-width: 1100px) {
+    .experienceItem {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        text-align: left;
+        padding-left: 3%;
+        margin-bottom: 8vw;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h6 {
+        font-size: 15px;
+    }
+    .welcomeBackground {
+        width: 1400px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 42px;
+    }
+    #intro {
+        width: 60%;
+        padding-bottom: 0.5vw;
+        padding-top: 300px;
+    }
+    .containerTitle {
+        width: 200px;
+    }
+    #two.containerTitle {
+        width: 220px;
+    }
+}
+
+
+/* Styling for mobile use as well as collapsed windows on dektop*/
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .welcomeBackground {
+        width: 1250px;
+    }
+    .containerTitle {
+        width: 150px;
+    }
+    #two.containerTitle {
+        width: 160px;
+    }
+    .Paragraph {
+        height: auto;
+        width: 60%;
+        top: 0vw;
+        padding-top: 1vw;
+        padding-bottom: 10vw;
+    }
+    .selfPortrait {
+        width: 50%;
+        position: relative;
+        top: 10%;
+        margin-bottom: 30px;
+    }
+    td {
+        font-size: 14px;
+        padding: 3vw;
+    }
+    th {
+        font-size: 18px;
+    }
 }
