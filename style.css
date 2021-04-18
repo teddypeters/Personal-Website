@@ -128,7 +128,7 @@ li a {
     top: 0%;
     width: 1700px;
     overflow: hidden;
-    opacity: 0.05;
+    opacity: 0.1;
 }
 
 .selfPortrait {
@@ -170,7 +170,7 @@ li a {
     transition-duration: 0.4s;
 }
 
-#hireMe:hover {
+#learnMore:hover {
     border: 0.5vw solid rgb(92, 203, 255);
     background-color: rgba(217, 243, 255, 0.2);
 }
