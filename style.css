@@ -300,13 +300,13 @@ footer {
     position: relative;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(37, 37, 37);
-    height: 100px;
+    background-color: rgb(27, 27, 27);
+    height: 80px;
     text-align: center;
 }
 
 #contactInfo {
-    margin-top: 4vw;
+    margin-top: 35px;
 }
 
 #last.container {
