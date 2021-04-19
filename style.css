@@ -6,6 +6,7 @@ Styling for teddypeters.github.io
 */
 
 html {
+    --scroll-behavior: smooth;
     scroll-behavior: smooth;
 }
 

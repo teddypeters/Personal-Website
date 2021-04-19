@@ -1,9 +1,2 @@
-
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+src = "https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"
+src = "https://unpkg.com/smoothscroll-anchor-polyfill"
