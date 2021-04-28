@@ -1,6 +1,3 @@
-src = "https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"
-src = "https://unpkg.com/smoothscroll-anchor-polyfill"
-
 window.addEventListener('scroll', () => {
     document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
 }, false);
