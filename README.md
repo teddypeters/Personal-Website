@@ -10,7 +10,8 @@ teddypeters@me.com
 
 
 Sources::
-W3schools.com
+
+https://www.w3schools.com
 
 https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
 
