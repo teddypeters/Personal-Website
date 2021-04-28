@@ -1,7 +1,7 @@
 # teddypeters.github.io
 
 This website is meant to showcase some of my abilities in regards to web development. In creating this website, I relied on many external resources both to learn more
-and to add more advanced functionality. Linked below are the websites I relied on throughout this project. Additionally, code that was not written by myself was 
+and to add more advanced functionality. Linked below are the websites I utilized throughout this project. Additionally, code that was not written by myself was 
 quoted in the documents with disclaimers and links to the original work. This project is ongoing and soley meant for personal learning and growth. The website is by no means intended for use in other formats. That said feel free to contact me with any questions and/or suggestions.
 
 Ted Peters
