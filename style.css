@@ -79,6 +79,10 @@ h6 {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 
+#burgerClass {
+    border: 0.8vw solid rgb(68, 161, 248);
+}
+
 .nav-icon {
     float: right;
     margin: 1em;
